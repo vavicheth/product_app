@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'productscreen.dart';
+
 class MyHotNews extends StatelessWidget {
 
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
@@ -90,6 +92,8 @@ class MyHotNews extends StatelessWidget {
               onTap: (){
                 //TODO: press home menu
                 print("Home clicked!");
+
+
               },
             ),
             ListTile(
